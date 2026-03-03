@@ -4,6 +4,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f4f6f9;
     color: #333;
+    line-height: 1.6;
 }
 
 header {
@@ -14,49 +15,43 @@ header {
 }
 
 .container {
-    width: 80%;
+    width: 85%;
+    max-width: 1000px;
     margin: auto;
 }
 
 h1 {
     font-size: 42px;
+    margin-bottom: 10px;
 }
 
 h2 {
     color: #0d1b2a;
-}
-
-.btn {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0d1b2a;
     display: inline-block;
-    padding: 12px 25px;
-    background: #1b263b;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    margin-top: 20px;
+    padding-bottom: 5px;
 }
 
-.btn:hover {
-    background: #415a77;
+h3 {
+    margin-top: 30px;
+    color: #1b263b;
 }
 
 section {
     padding: 60px 0;
-    text-align: center;
 }
 
-.skills ul {
-    list-style: none;
-    padding: 0;
+.gray {
+    background-color: #e9ecef;
 }
 
-.skills li {
-    background: white;
-    margin: 12px auto;
-    width: 300px;
-    padding: 12px;
-    border-radius: 6px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
 }
 
 footer {
@@ -64,14 +59,4 @@ footer {
     padding: 25px;
     background: #0d1b2a;
     color: white;
-}
-
-.upload-container {
-    text-align: center;
-    padding: 120px 20px;
-}
-
-iframe {
-    margin-top: 20px;
-    border-radius: 8px;
 }
